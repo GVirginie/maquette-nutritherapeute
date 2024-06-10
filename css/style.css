@@ -54,6 +54,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 li {
     list-style: none;
 }
@@ -69,16 +70,16 @@ header {
 }
 
     /* Nav */
+
 nav {
     padding: 5px;
 }
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 2rem;
 }
-
-
 
     /* Intro */
 
@@ -89,14 +90,12 @@ nav ul {
     object-fit: cover;
 }
 
-.intro {
+ .intro {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-
-}
+    flex-direction: row;
+    flex: 1 1 300px;
+} 
 
 .sophie, .sophro, .nutri{
 
@@ -139,9 +138,9 @@ nav ul {
     display: flex;
     justify-content: center;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+
 }
 
     /* Footer */
